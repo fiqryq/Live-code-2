@@ -1,0 +1,99 @@
+.container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+.left {
+  width: 100%;
+  position: relative;
+  padding-left: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.backdrop {
+  position: absolute;
+}
+
+.top-title {
+  max-width: 320px;
+}
+
+.top-title h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.top-title p {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #636363;
+}
+
+.content-mid h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #1ea59a;
+}
+
+.content-mid p {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #636363;
+}
+
+.content-bottom h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #1ea59a;
+}
+
+.content-bottom p {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #636363;
+}
+
+.right {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  background-color: #f6fafa;
+}
+.icon {
+  margin-right: 15px;
+  height: 24px;
+  padding: 10px;
+  border-radius: 100%;
+  background-color: #1ea59a2d;
+}
+
+.items-right {
+  display: flex;
+  margin-top: 50px;
+}
+
+.items-right .title h1 {
+  font-size: 1.5;
+  font-weight: bold;
+}
+.items-right .title p {
+  color: #404852;
+  margin-top: 5px;
+  font-size: 0.938;
+  max-width: 320px;
+}
+
+.icon-right {
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+  opacity: 40%;
+  background-color: #1ea59a;
+}
